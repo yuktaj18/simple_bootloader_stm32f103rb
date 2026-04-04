@@ -1,0 +1,12 @@
+{
+  "ROS2.distro": "jazzy",
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",
+  "cortex-debug.openocdPath": "/usr/bin/openocd"
+
+}
