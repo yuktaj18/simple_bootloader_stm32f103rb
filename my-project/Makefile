@@ -4,13 +4,16 @@ BUILD_DIR = bin
 SHARED_DIR = ../my-common-code
 CFILES = my-project.c
 CFILES += api.c
+CFILES += nucleof103_timer.c
 AFILES += api-asm.S
+AFILES += bootloader.S
 
 # TODO - you will need to edit these two lines!
 DEVICE=stm32f103rb
 OPENCM3_LIB=opencm3_stm32f1
 OPENCM3_DEFS=-DSTM32F1
-OOCD_FILE = board/st_nucleo_f103rb
+OOCD_INTERFACE = stlink
+OOCD_TARGET = stm32f1x
 ARCH_FLAGS = -mthumb -mcpu=cortex-m3 -mfloat-abi=soft -mfix-cortex-m3-ldrd
 
 # You shouldn't have to edit anything below here.
