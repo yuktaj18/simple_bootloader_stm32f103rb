@@ -1,4 +1,40 @@
-In this project I have implemented a simple bootloader for stm32f103rb i.e. nucleof103 rb board.
-I have used libopencm3 in linux (ubuntu) for this project.
-I have followed the LowByteProductions tutorials for implementing the bootloader.
-This the video demonstration, https://drive.google.com/file/d/1Vi7OY22hhCCbqpLNlFrzCmLsg0ocjmFm/view?usp=drivesdk, of fading led after bootloader directs to main application.
+# STM32F103RB Bootloader
+
+## Overview
+
+This project implements a **simple custom bootloader** for the **STM32F103RB** microcontroller on the **STM32 Nucleo-F103RB** development board.
+
+The bootloader is developed using **libopencm3** on **Ubuntu Linux**, providing a lightweight, open-source alternative to STM32 HAL libraries. After reset, the bootloader initializes the system and transfers execution to the user application stored at a different Flash memory location.
+
+This project was implemented by following the bootloader tutorial series by **LowByteProductions**.
+
+---
+
+## Features
+
+* Custom STM32 bootloader
+* Developed using **libopencm3**
+* Bare-metal programming (no HAL)
+* Executes from Flash memory
+* Transfers control to the user application
+* Correct vector table relocation
+* Stack Pointer (MSP) initialization
+* Jump to application reset handler
+
+---
+
+## Hardware
+
+* STM32 Nucleo-F103RB
+* USB ST-Link Programmer (on-board)
+
+---
+
+## Software Requirements
+
+* Ubuntu Linux
+* GCC ARM Embedded Toolchain
+* libopencm3
+* OpenOCD
+* GNU Make
+
