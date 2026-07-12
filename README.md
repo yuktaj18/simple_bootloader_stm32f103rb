@@ -27,7 +27,7 @@ This project was implemented by following the bootloader tutorial series by **Lo
 ---
 ## Video
 
-Watch the full video. [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1)
+Watch the full video. [🎥 Video](https://github.com/user-attachments/assets/248dceb2-d788-4067-9897-133ed1fc3129)
 <p align="center">
   <img src="media/VID_20260404_165702+(1)-compressed.gif" width="500">
 </p>
