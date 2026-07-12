@@ -27,6 +27,10 @@ This project was implemented by following the bootloader tutorial series by **Lo
 ---
 ## Video
 
+Watch the full video. [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1)
+<p align="center">
+  <img src="media/MPU6050.gif" width="700">
+</p>
 
 ---
 
